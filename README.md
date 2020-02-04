@@ -19,3 +19,21 @@ _Dependencies:_ [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic), [
 **[!!]** _Considerations:_ (1) If no flu is detected in the fastq sample, it creates an empty file, to continue with the pipeline.
 
 Pipeline coded using [Snakemake](https://snakemake.readthedocs.io/en/stable/) and make use of [Python3](https://www.python.org/) and [Biopython](https://biopython.org/).
+
+
+----------------------------
+
+Copyright (C) February/2020. Miguel Grau López. WHO Collaborating Centre for Reference and Research on Influenza.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
