@@ -1,7 +1,6 @@
 # IRMAsnk
 Assembly, variant calling, and phasing of highly variable FLU viruses using IRMA and snakemake.
 
-### phylogeny with/without downsampling per region.
 `src/who_flu_irma.py` : Given multiple paired fastq files, the pipeline run a quality check (trimmomatic) and an assembly IRMA (e.g. `IRMA FLU-utr R1.fastq.gz R2.fastq.gz Sample1WithUTRs`). Next, it rename/group the results and create the depth plots using circos. 
 
 **Input files:** (input1) Fastq folder with paired reads.
