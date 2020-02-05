@@ -157,7 +157,7 @@ rule subTypeAndDepthPlots:
         ws=workspace
     shell:"""
         #identify subtypes
-        python tools/groupSubtypeIRMA.py {params.fasta} {params.ws}
+        python ../tools/groupSubtypeIRMA.py {params.fasta} {params.ws}
         #depthPlots
         python /home/yi-mo/pipelines/miguel/paired/tools/createGraphfiles_Full_17Nov.py {input.fasta} {input.R1} {input.R2}
         mv {params.tmp} {output.covX}
